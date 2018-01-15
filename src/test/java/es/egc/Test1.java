@@ -33,6 +33,6 @@ public class Test1
      */
     public void testApp()
     {
-        assertTrue( new App1().divide(2,2) == 1 );
+        assertTrue( new MisMatematicas().divide(2,2) == 1 );
     }
 }

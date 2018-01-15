@@ -5,14 +5,14 @@ import org.apache.log4j.*;
  * DIVISION
  *
  */
-public class App1 
+public class MisMatematicas 
 {
-	static Logger log=Logger.getLogger(App1.class); 
+	static Logger log=Logger.getLogger(MisMatematicas.class); 
 
 	public static void main(String[] args) {
 		int a = 10;
 		int b = 2;
-		System.out.println(a + "/" + b + " = " + App1.divide(a,b));
+		System.out.println(a + "/" + b + " = " + MisMatematicas.divide(a,b));
 	}
 	
 	public static int divide(int a, int b){

@@ -33,6 +33,6 @@ public class Test2
      */
     public void testApp()
     {
-        assertTrue( new App2().multiplica(4,2) == 8 );
+        assertTrue( new MisMatematicas().multiplica(4,2) == 8 );
     }
 }
